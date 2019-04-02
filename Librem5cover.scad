@@ -1,3 +1,6 @@
+//Copyright (C) 2019 Eric C. Spivey
+// Gnu General Public Licence v3 boilerplate below
+
 // estimated phone at 71 x 152 mm, probably 70 x 150 mm, with a 7.5 mm radius of curvature at the edge
 // back bevel surface is 67 x 149 mm, probably 66 x 148 mm
 // wild estimate of thickness is 12 mm, with 4 mm of bevel
@@ -125,3 +128,17 @@ module bev_rect (rb,rr,wr,lr){
 //    translate([44.75,-44.75])sphere(15,true);
 //    translate([-44.75,-44.75])sphere(15,true);
 //}
+
+//GNU GENERAL PUBLIC LICENSE BOILERPLATE
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <https://www.gnu.org/licenses/>.
