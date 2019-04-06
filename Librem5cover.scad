@@ -71,6 +71,16 @@ translate([0,0,((h-hf)/2)-th])linear_extrude(hf*2*th)hull(){
 //Uncomment following line to check cross section
 //translate([0,0,3])cube([100,100,100]); // check cross section
 
+//strap slits
+    translate([(-15),(0)]){
+        translate([0,20])cylinder(2*h1,1.5,1.5,true,$fn=50);
+        translate([0,-20])cylinder(2*h1,1.5,1.5,true,$fn=50);
+        hull(){
+            translate([0,20])cylinder(2*h1,1,1,true,$fn=50);
+            translate([0,-20])cylinder(2*h1,1,1,true,$fn=50);
+        }
+    }
+
 //camera and light hole
 hull(){
     translate([((w1/2)-chx),((l1/2)-chy)])cylinder(2*h1,5.5,5.5,true,$fn=50);// camera hole
