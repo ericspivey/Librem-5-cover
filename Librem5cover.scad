@@ -7,7 +7,7 @@
 // ALL UNITS IN MILLIMETERS
 
 //SET THICKNESS
-th = 1; // desired thickness of cover
+th = 1; // desired thickness of cover, this is the distance between outside and inside of the cover surface
 
 //DIMENSIONS OF THE PHONE
 r1=7.5; // outer radius of curvature of phone corners
